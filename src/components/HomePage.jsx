@@ -4,7 +4,7 @@ import { AiOutlineDownCircle } from "react-icons/ai"
 
 function HomePage(){
     return (
-        <section id="home" className=" mx-auto flex flex-col items-center space-y-60 lg:space-y-80">
+        <section id="home" className="flex flex-col items-center space-y-60 lg:space-y-80">
             <NavBar />
 
             <main className="flex flex-col items-center space-y-24">
@@ -13,7 +13,7 @@ function HomePage(){
                     <p className="font-graphikRegular">Wander Ofter. Wonder Always</p>
                 </div>
 
-                <div className="py-16">
+                <div className="py-32">
                     <AiOutlineDownCircle color="white" size="30" />
                 </div>
             </main>
