@@ -7,19 +7,21 @@ function Gallery() {
 
     const content = [
         {
+            imageId: 'greeny',
             mainHeading: 'Nareoyjorden',
             subHeading: 'norway',
-            id: 'card1'
+            
         },
         {
+            imageId: 'tower',
             mainHeading: 'Antelop Canyon',
-            subHeading: 'united states',
-            id: 'card2'
+            subHeading: 'united states'
+            
         },
         {
             mainHeading: 'Grossglockner',
             subHeading: 'Austria',
-            id: 'card3'
+            imageId: 'nature'
         }
       ]
     return ( 
